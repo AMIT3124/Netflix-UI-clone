@@ -1,0 +1,157 @@
+body {
+    width: 100vw;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)),
+        url("./images/IM.jpg");
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+.header-section {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    margin-top: 5%;
+    /* Adjusted margin unit */
+}
+
+.header-section-content {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 100px;
+}
+
+.header-section-content h1 {
+    font-size: 45px;
+    font-weight: bold;
+    /* Adjusted font weight */
+}
+
+.header-section-content p {
+    font-size: 20px;
+}
+
+.header-section-content input {
+    height: 42px;
+    width: 300px;
+    font-size: large;
+    background-color: transparent;
+    border: 1px solid rgb(179, 175, 175);
+    border-radius: 4px;
+}
+
+.header-section-content button {
+    background-color: #e50914;
+    color: white;
+    height: 43px;
+    border: none;
+    border-radius: 3px;
+    font-size: large;
+    margin-left: 10px;
+}
+
+#sign-in {
+    background-color: #e50914;
+    color: white;
+    height: 30px;
+    padding: 7px 17px;
+    font-size: large;
+    border: none;
+    margin-top: 30px;
+}
+
+.tv {
+    display: flex;
+    justify-content: left;
+}
+
+.tv h1 {
+    font-size: 50px;
+}
+
+.tv p {
+    font-size: large;
+}
+
+.vedio-image {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.vedio-image video {
+    background-image: url("./images/tv.png");
+    position: absolute;
+}
+
+.shows {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    height: 300px;
+}
+
+.watch {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    height: 300px;
+}
+
+.shows h2 {
+    font-size: 50px;
+}
+
+.watch-info h2 {
+    font-size: 50px;
+}
+
+.shows p {
+    font-size: large;
+}
+
+.shows-info,
+.shows-vedio,
+.watch-info,
+.watch-vedio {
+    width: 50vw;
+    height: 300px;
+}
+
+.shows-vedio img,
+.watch-vedio {
+    height: 300px;
+
+}
+
+.watch-vedio vedio {
+    height: 300px;
+}
+
+.tv-section {
+    height: 300px;
+    width: auto;
+}
+
+.ask-questions {
+    text-align: center;
+    width: 60vw;
+    margin: auto;
+}
+
+.ask-questions h2 {
+    font-size: 50px;
+}
+
+span {
+    font-size: large;
+    font-weight: bolder;
+}
